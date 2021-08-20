@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="org.mama.secondProgect.SwingForms.GoodManipulationForm">
+  <grid id="27dc6" binding="mainPanel" layout-manager="GridLayoutManager" row-count="5" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="262" height="174"/>
+    </constraints>
+    <properties>
+      <inheritsPopupMenu value="false"/>
+      <maximumSize width="216" height="174"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="668fe" class="javax.swing.JLabel" binding="nameGood">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Name"/>
+        </properties>
+      </component>
+      <component id="2cf1" class="javax.swing.JLabel" binding="priceGood">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Price"/>
+        </properties>
+      </component>
+      <component id="dc6cb" class="javax.swing.JLabel" binding="colorGood">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Color"/>
+        </properties>
+      </component>
+      <component id="c263a" class="javax.swing.JLabel" binding="sizeGood">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Size"/>
+        </properties>
+      </component>
+      <component id="38fde" class="javax.swing.JTextField" binding="nameGoodField">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="96" height="30"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="5529" class="javax.swing.JTextField" binding="priceGoodField">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="96" height="30"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="bb842" class="javax.swing.JTextField" binding="colorGoodField">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="96" height="30"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="c8f71" class="javax.swing.JTextField" binding="sizeGoodField">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="96" height="30"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="a6c8c" class="javax.swing.JButton" binding="addGoodButton">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="96" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Add"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>

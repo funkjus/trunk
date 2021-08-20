@@ -1,0 +1,8 @@
+2021-04-15 19:01:26 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Таблица "STUDENT" не найдена
+Table "STUDENT" not found; SQL statement:
+insert into Student (id, name) values (null, ?) [42102-200]
+2021-04-15 19:02:12 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Таблица "STUDENT" не найдена
+Table "STUDENT" not found; SQL statement:
+insert into Student (ID, name) values (null, ?) [42102-200]
